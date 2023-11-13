@@ -1,0 +1,38 @@
+body {
+    font-family: Arial;
+    background-color: #211F29;
+    margin: 0;
+  }
+header {
+    background-color: #504f4f;
+    text-align: center;
+}
+
+button {
+    background-color: #211F29;
+    color: white;
+    padding: 10px 20px;
+}
+.successMessage {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+    font-size: 40px;
+  }
+
+  .userCard {
+    width: 19.89%; 
+    border: 1px solid #211F29;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    color: white;
+  }
+  .userCard img {
+    width: 100%;
+    height: auto;
+  }
+  .usersRow {
+    display: flex;
+  }
